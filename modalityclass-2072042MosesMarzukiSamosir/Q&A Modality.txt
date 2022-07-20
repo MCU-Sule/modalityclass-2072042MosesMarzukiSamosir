@@ -1,0 +1,30 @@
+
+2072042-Moses Marzuki Samosir
+
+
+- how to prevent null from closing window
+use .hide with get Scene and get.Window first
+
+- how to know if a modal succeed or fail
+if fail, we will get errror massage , ofr example 
+"java.lang.IllegalStateException: Cannot set modality once stage has been set visible"
+it means the stage is not closed properly or the stage still open but system cant set modality
+
+- how do we sort listview by name
+we can use SortedList in the listView
+
+- how do we sort listview by price
+we can use SortedList in the listView
+
+- how to show sub menu (context menu) on right click on list view
+use context menu than make menu item to make a choice
+
+- how to delete data from right click menu
+to delete, we need to get item with getSelectionModel() and than use getSelectedIndex().
+after that we can delete the data with contextMenu  and to delete we use .remove(item)
+
+- if you want user to be able to order from menu what file needed
+to be modified /added (explain those file) ?
+we need to modify fxml file to make order button and modify controller to process data
+and we need to make new model for make the order. 
+
